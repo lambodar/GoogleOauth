@@ -46,10 +46,10 @@ public class GetDetailServlet extends HttpServlet{
 		//URL url=new URL("");
 		//HttpClient client = new DefaultHttpClient();
 		HttpTransport transport=new com.google.api.client.http.javanet.NetHttpTransport();
-		String CLIENT_ID="603804890241.apps.googleusercontent.com";
-		String CLIENT_SECRET="7fmfgNanNQU8tcvmrwRNp3wC";
+		String CLIENT_ID="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+		String CLIENT_SECRET="xxxxxxxxxxxxxxxxxxxxxxxxx";
 		String authorizationCode=code;
-		String CALLBACK_URL="http://appusingspring.appspot.com/getDetail";
+		String CALLBACK_URL="http://xxxxxxxxxxxxxxxxxxxxxxxxx.com/getDetail";
 		System.out.println("before jsonfactory");
 		//JsonFactory JSON_FACTORY = new JacksonFactory();
 		JacksonFactory JSON_FACTORY = new JacksonFactory();
