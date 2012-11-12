@@ -13,8 +13,8 @@ public class GrabGoogle extends HttpServlet{
 		HttpSession session=request.getSession(true);
 		response.sendRedirect("https://accounts.google.com/o/oauth2/auth?" +
 				"scope=https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile&" +
-				"redirect_uri=http://appusingspring.appspot.com/getDetail&response_type=code&" +
-				"client_id=603804890241.apps.googleusercontent.com");
+				"redirect_uri=http://xxxxxxxxxxxxx.com/getDetail&response_type=code&" +
+				"client_id=xxxxxxxxxxxxxxxx");
 		
 	}
 
